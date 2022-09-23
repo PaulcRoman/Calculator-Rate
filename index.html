@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>Our offer</header>
+    <div class="main-div">
+        <div class="sliders">
+            <p>Amount requested</p>
+            <input type="range" min="0" max="5000" value="100" class="sum">
+
+            <span>$</span><span class="sumResult"></span>
+
+            <p>Choose period</p>
+            <p><input type="range" min="1" max="24" value="1" class="month">
+            <span class="luna"></span><span> month</span></p>
+        </div>
+        <div class="amount">
+            <p class="text">the whole amount</p>
+            <span class="resultPer"></span><span>$</span>
+        </div>
+        <div class="percentage">
+            <p>percent</p>
+            <span class="procent"></span><span>%</span>
+        </div>   
+    </div>
+    <div class="info"></div>
+        <ul>
+            <li>minimim loan amount 100$</li>
+            <li>maximum loan amount 5000$</li>
+            <li>if you take out a loan for a period of more thansix months, the interest rate drops by 0.5 percent</li>
+            <li>if you take out a loan for a period of more than twelve months, the interest rate drops by 1 percent</li>
+            <li>if you take a loan for two years, the interest rate drops by 1.5 percent</li>
+        </ul>
+    <script src="script.js"></script>
+</body>
+</html>
